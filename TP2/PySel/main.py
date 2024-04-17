@@ -90,7 +90,7 @@ while directorio_transistor not in ["BFP450", "BFP640"]:
     directorio_transistor = input("Ingrese el directorio del transistor (BFP450 o BFP640): ")
 
 # Frecuencia seleccionada por el usuario en GHz
-frecuencia_usuario = 0.5  # Por ejemplo, 0.03 GHz
+frecuencia_usuario = float(input("Ingrese Frecuencia en GHz: "))  # Por ejemplo, 0.03 GHz
 
 # Calcular parámetros S para todas las polarizaciones
 parametros_s = calcular_parametros_s(frecuencia_usuario, [directorio_transistor])
