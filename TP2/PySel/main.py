@@ -33,17 +33,15 @@ def calcular_parametros_s(frecuencia, carpetas):
 
 def calcular_delta_y_guardar(parametros_s):
     deltas = {}
-    polarizaciones_buenas = {}
+    polarizaciones_buenas_delta = {}
     for archivo, parametros in parametros_s.items():
         delta = (parametros[0, 0] * parametros[1, 1]) - (parametros[0, 1] * parametros[1, 0])
         deltas[archivo] = delta
         if abs(delta) < 1:
-            # Guardar Vce e Ic si el módulo de delta es menor que 1
-            # Aquí asumo que puedes obtener Vce e Ic de alguna manera, puedes ajustar esto según tus datos reales
-            Vce = obtener_Vce(archivo)
-            Ic = obtener_Ic(archivo)
-            polarizaciones_buenas[archivo] = {'Vce': Vce, 'Ic': Ic}
-    return deltas, polarizaciones_buenas
+
+            polarizaciones_buenas_delta[archivo] = {'delta': delta}
+
+    return deltas, polarizaciones_buenas_delta
 
 
 
@@ -71,26 +69,14 @@ def calcular_k_y_guardar(parametros_s, deltas):
 
 
 
-def guardar_polarizaciones_estables(polarizaciones_buenas, polarizaciones_buenas_k):
+def guardar_polarizaciones_estables(polarizaciones_buenas_delta, polarizaciones_buenas_k):
     polarizaciones_estables = {}
-    for archivo, info in polarizaciones_buenas.items():
+    for archivo, info in polarizaciones_buenas_delta.items():
         if archivo in polarizaciones_buenas_k:
             polarizaciones_estables[archivo] = info
     return polarizaciones_estables
 
 
-
-def obtener_Vce(archivo):
-    # Aquí simulamos obtener el valor de Vce a partir del nombre del archivo .s2p
-    # Puedes ajustar esto según tus datos reales
-    return archivo.split('_')[4]
-
-
-
-def obtener_Ic(archivo):
-    # Aquí simulamos obtener el valor de Ic a partir del nombre del archivo .s2p
-    # Puedes ajustar esto según tus datos reales
-    return archivo.split('_')[6]
 
 '''
 
@@ -99,10 +85,12 @@ def obtener_Ic(archivo):
 '''
 
 # Directorio que contiene los archivos .s2p
-directorio_transistor = "BFP450"
+directorio_transistor = input("Ingrese modelo del transitor: ")
+while directorio_transistor not in ["BFP450", "BFP640"]:
+    directorio_transistor = input("Ingrese el directorio del transistor (BFP450 o BFP640): ")
 
 # Frecuencia seleccionada por el usuario en GHz
-frecuencia_usuario = 4  # Por ejemplo, 0.03 GHz
+frecuencia_usuario = 0.5  # Por ejemplo, 0.03 GHz
 
 # Calcular parámetros S para todas las polarizaciones
 parametros_s = calcular_parametros_s(frecuencia_usuario, [directorio_transistor])
@@ -116,14 +104,12 @@ for archivo, parametros in parametros_s.items():
     print()
 
 #Cálculo del delta para todas las polarizaciones y guardar las polarizaciones compatibles
-deltas, polarizaciones_buenas = calcular_delta_y_guardar(parametros_s)
+deltas, polarizaciones_buenas_delta = calcular_delta_y_guardar(parametros_s)
 # Mostrar el parámetro delta para cada polarización y verificar si es buena
 for archivo, delta in deltas.items():
     print(f"Parámetro delta para {archivo}: {delta}")
     if abs(delta) < 1:
         print("¡La polarización es buena!")
-        print("Vce:", polarizaciones_buenas[archivo]['Vce'])
-        print("Ic:", polarizaciones_buenas[archivo]['Ic'])
     else:
         print("La polarización no es buena.")
     print()
@@ -142,8 +128,8 @@ for archivo, k in ks.items():
 
 
 # Guardar las polarizaciones estables
-polarizaciones_estables = guardar_polarizaciones_estables(polarizaciones_buenas, polarizaciones_buenas_k)
+polarizaciones_estables = guardar_polarizaciones_estables(polarizaciones_buenas_delta, polarizaciones_buenas_k)
 # Mostrar las polarizaciones estables
 print(f'Polarizaciones estables para {frecuencia_usuario} GHz:')
 for archivo, info in polarizaciones_estables.items():
-    print(f"Archivo: {archivo}, Vce: {info['Vce']}, Ic: {info['Ic']}")
+    print(f"Archivo: {archivo}")
