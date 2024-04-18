@@ -10,7 +10,7 @@ Zo=50;
 Zin=50;
 Zout=50;
 VCE=3;%V
-IC=70;%mA
+IC=10;%mA
 e_r = 4.5;%depende del dielectrico
 H=2e-3%m
 t=50e-6%m
@@ -86,3 +86,12 @@ end
 %% Otros calculos
 Lambda_0 = (3e8)/f
 Lambda_p = Lambda_0/sqrt(e_rp)
+
+%% Calculo Acoplador de entrada
+R_in = real(Z_in);
+X_in = imag(Z_in);
+R_inp = R_in * (1+(X_in/R_in)^2)
+X_inp = R_in * (R_inp/X_in)
+[width, imp] = w_microstrip(4.5, 0.002, 100e-6, R_inp)
+
+

@@ -5,14 +5,14 @@ if(~isdeployed)
   cd(fileparts(matlab.desktop.editor.getActiveFilename));
 end
 %% Parametros
-f=2.5e9;
+f=2e9;
 Zo=50;
 Zin=50;
 Zout=50;
-VCE=3;%V
-IC=30;%mA
-e_r = 4.5;%depende del dielectrico
-H=2e-3%m
+VCE=1;%V
+IC=35;%mA
+e_r = 4.3;%depende del dielectrico
+H=1.2e-3%m
 t=50e-6%m
 %%
 file = ['BFP640_w_noise_VCE_',num2str(VCE,1),'.0V_IC_',num2str(IC,2),'mA.s2p']
@@ -86,3 +86,20 @@ end
 %% Otros calculos
 Lambda_0 = (3e8)/f
 Lambda_p = Lambda_0/sqrt(e_rp)
+
+%% Calculo Acoplador de entrada
+R_in = real(Z_in)
+X_in = imag(Z_in)
+R_inp = R_in * (1+(X_in/R_in)^2)
+X_inp = R_in * (R_inp/X_in)
+Z=sqrt(R_inp*Zo)
+[w_in, imp_in, Lambda_p_in] = w_microstrip(e_r, H, t, Z, f)
+Largo_ac_in = Lambda_p_in/4
+
+%% Calculo Acoplador de Salida
+R_out = real(Z_out)
+X_out = imag(Z_out)
+%%aca no pasamos a paralelo(revisar notas del profe)
+Z=sqrt(R_out*Zo)
+[w_out, imp_out, Lambda_p_out] = w_microstrip(e_r, H, t, Z, f)
+Largo_ac_out = Lambda_p_out/4
