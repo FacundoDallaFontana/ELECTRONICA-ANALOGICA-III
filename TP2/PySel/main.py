@@ -1,5 +1,6 @@
 import os
 import skrf
+import math
 import numpy as np
 
 def calcular_parametros_s(frecuencia, carpetas):
@@ -142,6 +143,60 @@ def calcular_impedancias(parametros_s, deltas, coeficientes_reflexion, Zo):
     
     return impedancias
 
+def calcular_impedancias_paralelo(impedancias):
+    impedancias_paralelo = {}
+    for archivo, imp in impedancias.items():
+        Z_in = imp['Z_in']
+        R_in = Z_in.real
+        X_in = Z_in.imag
+        R_inp = R_in * (1 + (X_in/R_in)**2)
+        X_inp = X_in * (R_inp/X_in)
+        impedancias_paralelo[archivo] = {'R': R_inp, 'X': X_inp}
+    return impedancias_paralelo
+
+def calcular_Z0_microstrip_in(impedancias_paralelo, Zo):
+    Z0_microstrip_in = {}
+    for archivo, imp in impedancias_paralelo.items():
+        R_inp = imp['R']
+        Z0_microstrip_in[archivo] = math.sqrt(R_inp * Zo)
+    return Z0_microstrip_in
+
+def calcular_microstrip(e_r, H, Z0_microstrip_in):
+    t = 0.05  # grosor de la placa en mm
+
+    W_list = []
+    We_list = []
+    e_rp_list = []
+    Z0_list = []
+
+    for Zo in Z0_microstrip_in.values():
+        A = (Zo/60)*math.sqrt((e_r+1)/2)+((e_r-1)/(e_r+1))*(0.23+(0.11/e_r))
+        B = (377*math.pi)/(2*Zo*math.sqrt(e_r))
+
+        W_H = (8*math.exp(A))/(math.exp(2*A)-2)
+
+        if W_H > 2:
+            W_H = (2/math.pi)*(B-1-math.log(2*B-1))+((e_r-1)/(2*e_r))*(math.log(B-1)+0.39-(0.61/e_r))
+
+        W = W_H*H
+        W_list.append(W)
+
+        if W_H <= (1/(2*math.pi)):
+            We = W + (t/math.pi)*(1+math.log((4*math.pi*W)/t))
+        else:
+            We = W + (t/math.pi)*(1+math.log((2*H)/t))
+        We_list.append(We)
+
+        if W_H >= 1:
+            e_rp = ((e_r+1)/2) + ((e_r-1)/2)*(1/(math.sqrt(1+(12*H)/W)))
+            Z0 = ((120*math.pi)/math.sqrt(e_rp))/(W_H+1.393+0.667*math.log(W_H+1.444))
+        else:
+            e_rp = ((e_r+1)/2) + ((e_r-1)/2)*((1/(math.sqrt(1+(12*H)/W)))+0.004*(1-W_H)**2)
+            Z0 = (60/math.sqrt(e_rp))*math.log(((8*H)/W)+(W/(4*H)))
+        e_rp_list.append(e_rp)
+        Z0_list.append(Z0)
+
+    return W_list, We_list, e_rp_list, Z0_list
 '''
 
 ----------------------------------------MAIN-----------------------------------------------
@@ -225,3 +280,19 @@ for archivo_seleccionado, valores_impedancia in impedancias.items():
     print(f"Z_s: {valores_impedancia['Z_s']}")
     print(f"Z_L: {valores_impedancia['Z_L']}")
     print()
+
+#Calcular las impedancias de la función de arriba pero en formato paralelo
+impedancias_paralelo = calcular_impedancias_paralelo(impedancias)
+
+
+#Cálculo de MicroStip para acoplamiento de entrada:
+Z0_microstrip_in = calcular_Z0_microstrip_in(impedancias_paralelo, Zo)
+#Cálculo de MicroStip para acoplamientos de entrada y salida:
+print("Ingrese permitividad relativa del sustrato y altura de la placa: \n")
+e_r = float(input("Ingrese permitividad relativa del sustrato: "))
+H = float(input("Ingrese altura de la placa en mm: "))
+W_list, We_list, e_rp_list, Z0_list = calcular_microstrip(e_r, H, Z0_microstrip_in)
+# Imprimir los valores de W_list y los nombres de los archivos correspondientes
+for W, archivo in zip(W_list, polarizaciones_estables.keys()):
+    print(f"Polarización: {archivo}")
+    print(f"W: {W}")
