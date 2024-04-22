@@ -161,6 +161,14 @@ def calcular_Z0_microstrip_in(impedancias_paralelo, Zo):
         Z0_microstrip_in[archivo] = math.sqrt(R_inp * Zo)
     return Z0_microstrip_in
 
+def calcular_Z0_microstrip_out(impedancias, Zo):
+    Z0_microstrip_out = {}
+    for archivo, imp in impedancias.items():
+        Z_out = imp['Z_out']
+        R_out = Z_out.real
+        Z0_microstrip_out[archivo] = math.sqrt(R_out * Zo)
+    return Z0_microstrip_out
+
 def calcular_microstrip(e_r, H, Z0_microstrip_in):
     t = 0.05  # grosor de la placa en mm
 
@@ -288,11 +296,22 @@ impedancias_paralelo = calcular_impedancias_paralelo(impedancias)
 #Cálculo de MicroStip para acoplamiento de entrada:
 Z0_microstrip_in = calcular_Z0_microstrip_in(impedancias_paralelo, Zo)
 #Cálculo de MicroStip para acoplamientos de entrada y salida:
-print("Ingrese permitividad relativa del sustrato y altura de la placa: \n")
+print("Características de la placa: \n")
 e_r = float(input("Ingrese permitividad relativa del sustrato: "))
 H = float(input("Ingrese altura de la placa en mm: "))
+
+print("Microstrip de entrada: \n")
 W_list, We_list, e_rp_list, Z0_list = calcular_microstrip(e_r, H, Z0_microstrip_in)
 # Imprimir los valores de W_list y los nombres de los archivos correspondientes
 for We, archivo in zip(We_list, polarizaciones_estables.keys()):
     print(f"Polarización: {archivo}")
-    print(f"W: {We}")
+    print(f"We: {We}")
+
+
+print("Microstrip de salida: \n")
+#Cálculo de MicroStip para acoplamiento de salida:
+Z0_microstrip_out = calcular_Z0_microstrip_out(impedancias, Zo)
+W_listout, We_listout, e_rp_listout, Z0_listout = calcular_microstrip(e_r, H, Z0_microstrip_out)
+for We, archivo in zip(We_listout, polarizaciones_estables.keys()):
+    print(f"Polarización: {archivo}")
+    print(f"We: {We}")
