@@ -293,6 +293,6 @@ e_r = float(input("Ingrese permitividad relativa del sustrato: "))
 H = float(input("Ingrese altura de la placa en mm: "))
 W_list, We_list, e_rp_list, Z0_list = calcular_microstrip(e_r, H, Z0_microstrip_in)
 # Imprimir los valores de W_list y los nombres de los archivos correspondientes
-for W, archivo in zip(W_list, polarizaciones_estables.keys()):
+for We, archivo in zip(We_list, polarizaciones_estables.keys()):
     print(f"Polarización: {archivo}")
-    print(f"W: {W}")
+    print(f"W: {We}")
