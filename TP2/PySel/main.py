@@ -78,6 +78,70 @@ def guardar_polarizaciones_estables(polarizaciones_buenas_delta, polarizaciones_
 
 
 
+def seleccionar_polarizacion_estable(polarizaciones_estables):
+    print("Polarizaciones estables disponibles:")
+    for i, archivo in enumerate(polarizaciones_estables.keys(), start=1):
+        print(f"{i}. {archivo}")
+    
+    seleccion = int(input("Seleccione una polarización estable: ")) - 1
+    archivos = list(polarizaciones_estables.keys())
+    archivo_seleccionado = archivos[seleccion]
+
+    return archivo_seleccionado
+
+
+def calcular_coeficientes_de_reflexion(polarizaciones_estables, parametros_s, deltas):
+    coeficientes = {}
+    
+    for archivo_seleccionado in polarizaciones_estables:
+        parametros_seleccionados = parametros_s[archivo_seleccionado]
+        delta = deltas[archivo_seleccionado]
+
+        S11 = parametros_seleccionados[0, 0]
+        S22 = parametros_seleccionados[1, 1]
+
+        B1 = 1 + abs(S11)**2 - abs(S22)**2 - abs(delta)**2
+        B2 = 1 + abs(S22)**2 - abs(S11)**2 - abs(delta)**2
+        C1 = S11 - (delta * np.conj(S22))
+        C2 = S22 - (delta * np.conj(S11))
+
+        if B1 > 0:
+            r_Ms = (B1 - np.sqrt(B1**2 - 4 * abs(C1)**2)) / (2 * C1)
+        else:
+            r_Ms = (B1 + np.sqrt(B1**2 - 4 * abs(C1)**2)) / (2 * C1)
+
+        if B2 > 0:
+            r_ML = (B2 - np.sqrt(B2**2 - 4 * abs(C2)**2)) / (2 * C2)
+        else:
+            r_ML = (B2 + np.sqrt(B2**2 - 4 * abs(C2)**2)) / (2 * C2)
+
+        r_in = np.conj(r_Ms)
+        r_out = np.conj(r_ML)
+
+        coeficientes[archivo_seleccionado] = {'r_in': r_in, 'r_out': r_out}
+
+    return coeficientes
+
+
+def calcular_impedancias(parametros_s, deltas, coeficientes_reflexion, Zo):
+    impedancias = {}
+    for archivo_seleccionado, coeficientes in coeficientes_reflexion.items():
+        r_in = coeficientes['r_in']
+        r_out = coeficientes['r_out']
+        
+        # Calcular Z_in y Z_out
+        Z_in = Zo * (1 + r_in) / (1 - r_in)
+        Z_out = Zo * (1 + r_out) / (1 - r_out)
+        
+        # Calcular Z_s y Z_L (conjugados de Z_in y Z_out respectivamente)
+        Z_s = np.conj(Z_in)
+        Z_L = np.conj(Z_out)
+        
+        # Guardar las impedancias en el diccionario
+        impedancias[archivo_seleccionado] = {'Z_in': Z_in, 'Z_out': Z_out, 'Z_s': Z_s, 'Z_L': Z_L}
+    
+    return impedancias
+
 '''
 
 ----------------------------------------MAIN-----------------------------------------------
@@ -131,5 +195,33 @@ for archivo, k in ks.items():
 polarizaciones_estables = guardar_polarizaciones_estables(polarizaciones_buenas_delta, polarizaciones_buenas_k)
 # Mostrar las polarizaciones estables
 print(f'Polarizaciones estables para {frecuencia_usuario} GHz:')
+i=0
 for archivo, info in polarizaciones_estables.items():
-    print(f"Archivo: {archivo}")
+    i+=1
+    print(f"{i}- {archivo}")
+
+# Seleccionar una polarización estable
+#archivo_seleccionado = seleccionar_polarizacion_estable(polarizaciones_estables)
+#print("Polarización elegida:", archivo_seleccionado)
+
+# Calcular r_in y r_out para las polarizaciones incondicionalmente estables
+coeficientes_reflexion = calcular_coeficientes_de_reflexion(polarizaciones_estables, parametros_s, deltas)
+# Mostrar los valores de r_in y r_out
+for archivo_seleccionado, coeficientes in coeficientes_reflexion.items():
+    print(f"Polarización: {archivo_seleccionado}")
+    print(f"r_in: {coeficientes['r_in']}")
+    print(f"r_out: {coeficientes['r_out']}")
+    print()
+
+# Calcular las impedancias para cada polarización estable
+Zo = 50
+impedancias = calcular_impedancias(parametros_s, deltas, coeficientes_reflexion, Zo)
+# Mostrar las impedancias para cada polarización estable
+print("Impedancias para cada polarización estable:")
+for archivo_seleccionado, valores_impedancia in impedancias.items():
+    print(f"Polarización: {archivo_seleccionado}")
+    print(f"Z_in: {valores_impedancia['Z_in']}")
+    print(f"Z_out: {valores_impedancia['Z_out']}")
+    print(f"Z_s: {valores_impedancia['Z_s']}")
+    print(f"Z_L: {valores_impedancia['Z_L']}")
+    print()
