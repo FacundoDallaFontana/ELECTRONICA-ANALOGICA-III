@@ -150,7 +150,7 @@ def calcular_impedancias_paralelo(impedancias):
         R_in = Z_in.real
         X_in = Z_in.imag
         R_inp = R_in * (1 + (X_in/R_in)**2)
-        X_inp = X_in * (R_inp/X_in)
+        X_inp = R_in * (R_inp/X_in)
         impedancias_paralelo[archivo] = {'R': R_inp, 'X': X_inp}
     return impedancias_paralelo
 
