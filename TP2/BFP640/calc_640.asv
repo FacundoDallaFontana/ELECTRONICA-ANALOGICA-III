@@ -111,5 +111,3 @@ Largo_ac_out = Lambda_p_out/4
 
 X_out_2 = -(Zo^2)/X_out; %pasamos de inductiva a la salida a capacitiva a la entrada
 cap_out = 1/(2*pi*f*X_out_2)
-beta = (2*pi)/Lambda_p_out%usamos lambda eficaz
-d_cap_out = (1/beta)*acot(X_out_2/Zo)%Con impendacia caracteristica 50 ohm

@@ -1,4 +1,4 @@
-function [W, Zo, Lambda_p]= w_microstrip(e_r, H, t, Z, f)
+function [We, Zo, Lambda_p]= w_microstrip(e_r, H, t, Z, f)
 %% Calculo de microtiras (Hammerstad)
 
 A = (Z/60)*sqrt((e_r+1)/2)+((e_r-1)/(e_r+1))*(0.23+(0.11/e_r));
