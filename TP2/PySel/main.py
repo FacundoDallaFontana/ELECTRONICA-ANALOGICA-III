@@ -232,6 +232,7 @@ for archivo, parametros in parametros_s.items():
 
 #Cálculo del delta para todas las polarizaciones y guardar las polarizaciones compatibles
 deltas, polarizaciones_buenas_delta = calcular_delta_y_guardar(parametros_s)
+'''
 # Mostrar el parámetro delta para cada polarización y verificar si es buena
 for archivo, delta in deltas.items():
     print(f"Parámetro delta para {archivo}: {delta}")
@@ -240,9 +241,11 @@ for archivo, delta in deltas.items():
     else:
         print("La polarización no es buena.")
     print()
+'''
 
 # Calcular el parámetro k y guardar las polarizaciones compatibles
 ks, polarizaciones_buenas_k = calcular_k_y_guardar(parametros_s, deltas)
+'''
 # Mostrar el parámetro k para cada polarización y verificar si es buena
 for archivo, k in ks.items():
     print(f"Parámetro k para {archivo}: {k}")
@@ -252,7 +255,7 @@ for archivo, k in ks.items():
     else:
         print("La polarización no es buena.")
     print()
-
+'''
 
 # Guardar las polarizaciones estables
 polarizaciones_estables = guardar_polarizaciones_estables(polarizaciones_buenas_delta, polarizaciones_buenas_k)
