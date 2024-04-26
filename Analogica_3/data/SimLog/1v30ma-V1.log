@@ -1,0 +1,27 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+
+OPTIM Optim1[1] <Analogica_3_lib:1v30ma-V1:schematic>  optIter=(0->150)
+Warning detected by hpeesofsim during Nominal Optimization `Optim1'.
+    Variable `W_50' 
+     OPT variable initial value (0.0034) is out of min-max range [1, 5]. 
+     Resetting the range...
+
+SP Optim1[1].SP1[0] <Analogica_3_lib:1v30ma-V1:schematic>  optIter=0  freq=(100 MHz->10 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Noise data in the Touchstone file `C:/users/welcome/downloads/infineon_rf/circuit/data/BFP640_w_noise_VCE_1.0V_IC_35mA.s2p'
+    does not cover the current value of `freq'. Therefore, if noise
+    simulation is requested the data will be obtained by extrapolation.
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #0:
+  CurrentEF: 1.17258195958509
+  Optimization variables:
+    W_50 = 3.4e-03
+Optim1[1] terminated due to zero gradient 
+
+Resource usage:
+  Total stopwatch time     =   163.93 seconds.
+

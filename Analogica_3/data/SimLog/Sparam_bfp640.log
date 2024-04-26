@@ -1,0 +1,1530 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+
+OPTIM Optim1[1] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=(0->150)
+
+SP Optim1[1].SP1[0] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=0  freq=(10 MHz->10 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `C:/users/welcome/downloads/infineon_rf/circuit/data/BFP620_w_noise_VCE_1.0V_IC_30mA.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Noise data in the Touchstone file `C:/users/welcome/downloads/infineon_rf/circuit/data/BFP620_w_noise_VCE_1.0V_IC_30mA.s2p'
+    does not cover the current value of `freq'. Therefore, if noise
+    simulation is requested the data will be obtained by extrapolation.
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #0:
+  CurrentEF: 1.35390139253814
+  Optimization variables:
+    C1.C = 1.18028e-12
+    L1.L = 45.2292e-09
+    Term1.Z = 43.383
+    Term2.Z = 49.3867
+
+SP Optim1[1].SP1[1] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=1  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #1:
+  CurrentEF: 1.35369188090757
+  Optimization variables:
+    C1.C = 1.17927e-12
+    L1.L = 44.7741e-09
+    Term1.Z = 43.383
+    Term2.Z = 49.3867
+
+SP Optim1[1].SP1[2] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=2  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #2:
+  CurrentEF: 1.35359136885959
+  Optimization variables:
+    C1.C = 1.17781e-12
+    L1.L = 44.3558e-09
+    Term1.Z = 43.3827
+    Term2.Z = 49.3867
+
+SP Optim1[1].SP1[3] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=3  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #3:
+  CurrentEF: 1.35141882757121
+  Optimization variables:
+    C1.C = 1.16774e-12
+    L1.L = 37.9334e-09
+    Term1.Z = 42.6379
+    Term2.Z = 49.2267
+
+SP Optim1[1].SP1[4] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=4  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #4:
+  CurrentEF: 1.34997397352585
+  Optimization variables:
+    C1.C = 1.15065e-12
+    L1.L = 33.5053e-09
+    Term1.Z = 42.0567
+    Term2.Z = 49.0911
+
+SP Optim1[1].SP1[5] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=5  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #5:
+  CurrentEF: 1.34863478370632
+  Optimization variables:
+    C1.C = 1.14287e-12
+    L1.L = 33.5104e-09
+    Term1.Z = 42.0136
+    Term2.Z = 49.1083
+
+SP Optim1[1].SP1[6] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=6  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #6:
+  CurrentEF: 1.34772038880084
+  Optimization variables:
+    C1.C = 1.085e-12
+    L1.L = 31.4e-09
+    Term1.Z = 41.8998
+    Term2.Z = 48.105
+
+SP Optim1[1].SP1[7] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=7  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #7:
+  CurrentEF: 1.34699583830236
+  Optimization variables:
+    C1.C = 1.0105e-12
+    L1.L = 29.296e-09
+    Term1.Z = 41.8469
+    Term2.Z = 46.7498
+
+SP Optim1[1].SP1[8] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=8  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #8:
+  CurrentEF: 1.34620191434685
+  Optimization variables:
+    C1.C = 928.691e-15
+    L1.L = 27.5728e-09
+    Term1.Z = 41.87
+    Term2.Z = 45.2053
+
+SP Optim1[1].SP1[9] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=9  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #9:
+  CurrentEF: 1.34474782280524
+  Optimization variables:
+    C1.C = 876.897e-15
+    L1.L = 26.521e-09
+    Term1.Z = 41.8299
+    Term2.Z = 44.2918
+
+SP Optim1[1].SP1[10] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=10  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #10:
+  CurrentEF: 1.33711500995757
+  Optimization variables:
+    C1.C = 754.465e-15
+    L1.L = 20.5545e-09
+    Term1.Z = 40.4495
+    Term2.Z = 43.2076
+
+SP Optim1[1].SP1[11] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=11  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #11:
+  CurrentEF: 1.33642096047975
+  Optimization variables:
+    C1.C = 735.165e-15
+    L1.L = 19.7489e-09
+    Term1.Z = 40.3059
+    Term2.Z = 42.9301
+
+SP Optim1[1].SP1[12] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=12  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #12:
+  CurrentEF: 1.33404430933615
+  Optimization variables:
+    C1.C = 662.041e-15
+    L1.L = 17.9511e-09
+    Term1.Z = 40.0042
+    Term2.Z = 41.7422
+
+SP Optim1[1].SP1[13] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=13  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #13:
+  CurrentEF: 1.33327796902586
+  Optimization variables:
+    C1.C = 629.933e-15
+    L1.L = 16.8531e-09
+    Term1.Z = 39.6946
+    Term2.Z = 41.3736
+
+SP Optim1[1].SP1[14] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=14  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #14:
+  CurrentEF: 1.3307562095118
+  Optimization variables:
+    C1.C = 581.347e-15
+    L1.L = 15.1174e-09
+    Term1.Z = 38.9593
+    Term2.Z = 41.1161
+
+SP Optim1[1].SP1[15] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=15  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #15:
+  CurrentEF: 1.32546997835968
+  Optimization variables:
+    C1.C = 495.911e-15
+    L1.L = 13.3694e-09
+    Term1.Z = 38.0151
+    Term2.Z = 40.3464
+
+SP Optim1[1].SP1[16] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=16  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #16:
+  CurrentEF: 1.32100343964067
+  Optimization variables:
+    C1.C = 453.399e-15
+    L1.L = 12.0908e-09
+    Term1.Z = 36.866
+    Term2.Z = 40.7057
+
+SP Optim1[1].SP1[17] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=17  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #17:
+  CurrentEF: 1.31984949433548
+  Optimization variables:
+    C1.C = 431.599e-15
+    L1.L = 11.4819e-09
+    Term1.Z = 36.4822
+    Term2.Z = 40.6122
+
+SP Optim1[1].SP1[18] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=18  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #18:
+  CurrentEF: 1.31765960477896
+  Optimization variables:
+    C1.C = 393.112e-15
+    L1.L = 10.6586e-09
+    Term1.Z = 35.8563
+    Term2.Z = 40.4021
+
+SP Optim1[1].SP1[19] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=19  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #19:
+  CurrentEF: 1.31582267418758
+  Optimization variables:
+    C1.C = 379.062e-15
+    L1.L = 10.6004e-09
+    Term1.Z = 35.7217
+    Term2.Z = 40.2391
+
+SP Optim1[1].SP1[20] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=20  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #20:
+  CurrentEF: 1.3141091929891
+  Optimization variables:
+    C1.C = 348.704e-15
+    L1.L = 9.9462e-09
+    Term1.Z = 35.0193
+    Term2.Z = 40.2924
+
+SP Optim1[1].SP1[21] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=21  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #21:
+  CurrentEF: 1.3094092190433
+  Optimization variables:
+    C1.C = 303.023e-15
+    L1.L = 8.96545e-09
+    Term1.Z = 33.5662
+    Term2.Z = 40.8126
+
+SP Optim1[1].SP1[22] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=22  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #22:
+  CurrentEF: 1.30721872632662
+  Optimization variables:
+    C1.C = 295.835e-15
+    L1.L = 8.85886e-09
+    Term1.Z = 33.1514
+    Term2.Z = 41.1306
+
+SP Optim1[1].SP1[23] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=23  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #23:
+  CurrentEF: 1.30441306052969
+  Optimization variables:
+    C1.C = 264.618e-15
+    L1.L = 8.26557e-09
+    Term1.Z = 32.103
+    Term2.Z = 41.52
+
+SP Optim1[1].SP1[24] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=24  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #24:
+  CurrentEF: 1.30384688777251
+  Optimization variables:
+    C1.C = 252.366e-15
+    L1.L = 8.03093e-09
+    Term1.Z = 31.6393
+    Term2.Z = 41.728
+
+SP Optim1[1].SP1[25] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=25  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #25:
+  CurrentEF: 1.30184901186229
+  Optimization variables:
+    C1.C = 227.07e-15
+    L1.L = 7.58445e-09
+    Term1.Z = 30.4803
+    Term2.Z = 42.3947
+
+SP Optim1[1].SP1[26] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=26  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #26:
+  CurrentEF: 1.30062006976645
+  Optimization variables:
+    C1.C = 225.232e-15
+    L1.L = 7.54219e-09
+    Term1.Z = 30.1887
+    Term2.Z = 42.699
+
+SP Optim1[1].SP1[27] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=27  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #27:
+  CurrentEF: 1.29865835663094
+  Optimization variables:
+    C1.C = 209.333e-15
+    L1.L = 7.118e-09
+    Term1.Z = 29.0124
+    Term2.Z = 43.6578
+
+SP Optim1[1].SP1[28] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=28  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #28:
+  CurrentEF: 1.29710977848183
+  Optimization variables:
+    C1.C = 202.953e-15
+    L1.L = 6.77508e-09
+    Term1.Z = 27.7388
+    Term2.Z = 45.0485
+
+SP Optim1[1].SP1[29] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=29  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #29:
+  CurrentEF: 1.29660007412528
+  Optimization variables:
+    C1.C = 205.181e-15
+    L1.L = 6.80499e-09
+    Term1.Z = 27.7143
+    Term2.Z = 45.1484
+
+SP Optim1[1].SP1[30] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=30  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #30:
+  CurrentEF: 1.29563375792024
+  Optimization variables:
+    C1.C = 196.869e-15
+    L1.L = 6.61319e-09
+    Term1.Z = 26.9222
+    Term2.Z = 45.8908
+
+SP Optim1[1].SP1[31] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=31  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #31:
+  CurrentEF: 1.29535824419044
+  Optimization variables:
+    C1.C = 193.092e-15
+    L1.L = 6.48048e-09
+    Term1.Z = 26.3553
+    Term2.Z = 46.4963
+
+SP Optim1[1].SP1[32] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=32  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #32:
+  CurrentEF: 1.29482580000798
+  Optimization variables:
+    C1.C = 193.513e-15
+    L1.L = 6.27712e-09
+    Term1.Z = 25.2622
+    Term2.Z = 47.9268
+
+SP Optim1[1].SP1[33] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=33  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #33:
+  CurrentEF: 1.29467678752725
+  Optimization variables:
+    C1.C = 196.441e-15
+    L1.L = 6.29467e-09
+    Term1.Z = 25.2838
+    Term2.Z = 47.9903
+
+SP Optim1[1].SP1[34] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=34  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #34:
+  CurrentEF: 1.29456864643859
+  Optimization variables:
+    C1.C = 199.875e-15
+    L1.L = 6.21907e-09
+    Term1.Z = 24.8926
+    Term2.Z = 48.5496
+
+SP Optim1[1].SP1[35] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=35  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #35:
+  CurrentEF: 1.29451727059851
+  Optimization variables:
+    C1.C = 201.402e-15
+    L1.L = 6.16869e-09
+    Term1.Z = 24.58
+    Term2.Z = 49.0088
+
+SP Optim1[1].SP1[36] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=36  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #36:
+  CurrentEF: 1.29447730829144
+  Optimization variables:
+    C1.C = 204.879e-15
+    L1.L = 6.15375e-09
+    Term1.Z = 24.4504
+    Term2.Z = 49.2231
+
+SP Optim1[1].SP1[37] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=37  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #37:
+  CurrentEF: 1.29445238550537
+  Optimization variables:
+    C1.C = 207.729e-15
+    L1.L = 6.15096e-09
+    Term1.Z = 24.4064
+    Term2.Z = 49.3044
+
+SP Optim1[1].SP1[38] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=38  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #38:
+  CurrentEF: 1.29443085715291
+  Optimization variables:
+    C1.C = 209.796e-15
+    L1.L = 6.15787e-09
+    Term1.Z = 24.4063
+    Term2.Z = 49.3044
+
+SP Optim1[1].SP1[39] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=39  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #39:
+  CurrentEF: 1.29442767828336
+  Optimization variables:
+    C1.C = 209.122e-15
+    L1.L = 6.15887e-09
+    Term1.Z = 24.4074
+    Term2.Z = 49.3055
+
+SP Optim1[1].SP1[40] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=40  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #40:
+  CurrentEF: 1.29386576635721
+  Optimization variables:
+    C1.C = 265.964e-15
+    L1.L = 6.30173e-09
+    Term1.Z = 24.5562
+    Term2.Z = 49.4503
+
+SP Optim1[1].SP1[41] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=41  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #41:
+  CurrentEF: 1.29369663741145
+  Optimization variables:
+    C1.C = 288.839e-15
+    L1.L = 6.34391e-09
+    Term1.Z = 24.5275
+    Term2.Z = 49.6437
+
+SP Optim1[1].SP1[42] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=42  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #42:
+  CurrentEF: 1.29311020162498
+  Optimization variables:
+    C1.C = 370.505e-15
+    L1.L = 6.43914e-09
+    Term1.Z = 24.1167
+    Term2.Z = 50.8127
+
+SP Optim1[1].SP1[43] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=43  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #43:
+  CurrentEF: 1.29207161611011
+  Optimization variables:
+    C1.C = 449.291e-15
+    L1.L = 6.51551e-09
+    Term1.Z = 23.5585
+    Term2.Z = 52.3775
+
+SP Optim1[1].SP1[44] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=44  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #44:
+  CurrentEF: 1.29138576601893
+  Optimization variables:
+    C1.C = 525.772e-15
+    L1.L = 6.65174e-09
+    Term1.Z = 23.5242
+    Term2.Z = 52.9959
+
+SP Optim1[1].SP1[45] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=45  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #45:
+  CurrentEF: 1.29114029705282
+  Optimization variables:
+    C1.C = 540.392e-15
+    L1.L = 6.70478e-09
+    Term1.Z = 23.6481
+    Term2.Z = 52.9562
+
+SP Optim1[1].SP1[46] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=46  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #46:
+  CurrentEF: 1.29090782948996
+  Optimization variables:
+    C1.C = 588.199e-15
+    L1.L = 6.78943e-09
+    Term1.Z = 23.6064
+    Term2.Z = 53.4108
+
+SP Optim1[1].SP1[47] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=47  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #47:
+  CurrentEF: 1.29000091683761
+  Optimization variables:
+    C1.C = 704.708e-15
+    L1.L = 6.99674e-09
+    Term1.Z = 23.4814
+    Term2.Z = 54.7101
+
+SP Optim1[1].SP1[48] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=48  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #48:
+  CurrentEF: 1.28939667793555
+  Optimization variables:
+    C1.C = 791.652e-15
+    L1.L = 7.07534e-09
+    Term1.Z = 23.0507
+    Term2.Z = 56.1573
+
+SP Optim1[1].SP1[49] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=49  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #49:
+  CurrentEF: 1.28916029650854
+  Optimization variables:
+    C1.C = 797.864e-15
+    L1.L = 7.08988e-09
+    Term1.Z = 23.0189
+    Term2.Z = 56.358
+
+SP Optim1[1].SP1[50] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=50  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #50:
+  CurrentEF: 1.28862442702586
+  Optimization variables:
+    C1.C = 906.007e-15
+    L1.L = 7.29949e-09
+    Term1.Z = 23.0188
+    Term2.Z = 57.3947
+
+SP Optim1[1].SP1[51] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=51  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #51:
+  CurrentEF: 1.28834825064085
+  Optimization variables:
+    C1.C = 975.267e-15
+    L1.L = 7.47938e-09
+    Term1.Z = 23.1864
+    Term2.Z = 57.8952
+
+SP Optim1[1].SP1[52] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=52  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #52:
+  CurrentEF: 1.28814425527022
+  Optimization variables:
+    C1.C = 984.097e-15
+    L1.L = 7.50557e-09
+    Term1.Z = 23.1858
+    Term2.Z = 58.0727
+
+SP Optim1[1].SP1[53] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=53  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #53:
+  CurrentEF: 1.28796065216229
+  Optimization variables:
+    C1.C = 1.04969e-12
+    L1.L = 7.61152e-09
+    Term1.Z = 23.0772
+    Term2.Z = 58.915
+
+SP Optim1[1].SP1[54] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=54  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #54:
+  CurrentEF: 1.28789943880761
+  Optimization variables:
+    C1.C = 1.09239e-12
+    L1.L = 7.70868e-09
+    Term1.Z = 23.1237
+    Term2.Z = 59.2993
+
+SP Optim1[1].SP1[55] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=55  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #55:
+  CurrentEF: 1.2878087503035
+  Optimization variables:
+    C1.C = 1.10931e-12
+    L1.L = 7.77113e-09
+    Term1.Z = 23.2128
+    Term2.Z = 59.4073
+
+SP Optim1[1].SP1[56] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=56  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #56:
+  CurrentEF: 1.28776427966386
+  Optimization variables:
+    C1.C = 1.14501e-12
+    L1.L = 7.85484e-09
+    Term1.Z = 23.2402
+    Term2.Z = 59.7886
+
+SP Optim1[1].SP1[57] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=57  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #57:
+  CurrentEF: 1.28775447247428
+  Optimization variables:
+    C1.C = 1.15899e-12
+    L1.L = 7.89343e-09
+    Term1.Z = 23.268
+    Term2.Z = 59.9233
+
+SP Optim1[1].SP1[58] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=58  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #58:
+  CurrentEF: 1.2877529862173
+  Optimization variables:
+    C1.C = 1.16919e-12
+    L1.L = 7.91997e-09
+    Term1.Z = 23.2859
+    Term2.Z = 60.016
+
+SP Optim1[1].SP1[59] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=59  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #59:
+  CurrentEF: 1.28775164073067
+  Optimization variables:
+    C1.C = 1.1721e-12
+    L1.L = 7.9298e-09
+    Term1.Z = 23.2952
+    Term2.Z = 60.0432
+
+SP Optim1[1].SP1[60] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=60  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #60:
+  CurrentEF: 1.28775033436744
+  Optimization variables:
+    C1.C = 1.17509e-12
+    L1.L = 7.94638e-09
+    Term1.Z = 23.3221
+    Term2.Z = 60.043
+
+SP Optim1[1].SP1[61] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=61  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #61:
+  CurrentEF: 1.28774657131833
+  Optimization variables:
+    C1.C = 1.16632e-12
+    L1.L = 7.96752e-09
+    Term1.Z = 23.4223
+    Term2.Z = 59.8053
+
+SP Optim1[1].SP1[62] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=62  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #62:
+  CurrentEF: 1.2877457796077
+  Optimization variables:
+    C1.C = 1.15887e-12
+    L1.L = 7.95836e-09
+    Term1.Z = 23.4379
+    Term2.Z = 59.6933
+
+SP Optim1[1].SP1[63] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=63  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #63:
+  CurrentEF: 1.28774575574969
+  Optimization variables:
+    C1.C = 1.15647e-12
+    L1.L = 7.94942e-09
+    Term1.Z = 23.4279
+    Term2.Z = 59.6776
+
+SP Optim1[1].SP1[64] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=64  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #64:
+  CurrentEF: 1.28774573199434
+  Optimization variables:
+    C1.C = 1.15707e-12
+    L1.L = 7.95062e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6853
+
+SP Optim1[1].SP1[65] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=65  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #65:
+  CurrentEF: 1.28774572839872
+  Optimization variables:
+    C1.C = 1.15738e-12
+    L1.L = 7.95123e-09
+    Term1.Z = 23.4277
+    Term2.Z = 59.6893
+
+SP Optim1[1].SP1[66] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=66  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #66:
+  CurrentEF: 1.28774572834275
+  Optimization variables:
+    C1.C = 1.15742e-12
+    L1.L = 7.95129e-09
+    Term1.Z = 23.4277
+    Term2.Z = 59.6898
+
+SP Optim1[1].SP1[67] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=67  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #67:
+  CurrentEF: 1.28774572833679
+  Optimization variables:
+    C1.C = 1.15743e-12
+    L1.L = 7.95132e-09
+    Term1.Z = 23.4277
+    Term2.Z = 59.6899
+
+SP Optim1[1].SP1[68] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=68  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #68:
+  CurrentEF: 1.28774572833677
+  Optimization variables:
+    C1.C = 1.15743e-12
+    L1.L = 7.95132e-09
+    Term1.Z = 23.4277
+    Term2.Z = 59.6899
+
+SP Optim1[1].SP1[69] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=69  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #69:
+  CurrentEF: 1.287745727378
+  Optimization variables:
+    C1.C = 1.15733e-12
+    L1.L = 7.95111e-09
+    Term1.Z = 23.4277
+    Term2.Z = 59.6887
+
+SP Optim1[1].SP1[70] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=70  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #70:
+  CurrentEF: 1.28774572642979
+  Optimization variables:
+    C1.C = 1.1575e-12
+    L1.L = 7.95145e-09
+    Term1.Z = 23.4276
+    Term2.Z = 59.6909
+
+SP Optim1[1].SP1[71] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=71  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #71:
+  CurrentEF: 1.28774572642657
+  Optimization variables:
+    C1.C = 1.15751e-12
+    L1.L = 7.95148e-09
+    Term1.Z = 23.4276
+    Term2.Z = 59.691
+
+SP Optim1[1].SP1[72] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=72  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #72:
+  CurrentEF: 1.28774572642657
+  Optimization variables:
+    C1.C = 1.15751e-12
+    L1.L = 7.95148e-09
+    Term1.Z = 23.4276
+    Term2.Z = 59.691
+
+SP Optim1[1].SP1[73] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=73  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #73:
+  CurrentEF: 1.28774572472465
+  Optimization variables:
+    C1.C = 1.15788e-12
+    L1.L = 7.95225e-09
+    Term1.Z = 23.4277
+    Term2.Z = 59.6954
+
+SP Optim1[1].SP1[74] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=74  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #74:
+  CurrentEF: 1.28774572360625
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[75] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=75  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #75:
+  CurrentEF: 1.28774572360625
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[76] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=76  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #76:
+  CurrentEF: 1.28774572360592
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95176e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[77] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=77  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #77:
+  CurrentEF: 1.28774572360592
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95176e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[78] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=78  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #78:
+  CurrentEF: 1.28774572360036
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[79] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=79  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #79:
+  CurrentEF: 1.28774572359946
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[80] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=80  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #80:
+  CurrentEF: 1.28774572359946
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[81] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=81  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #81:
+  CurrentEF: 1.28774572359946
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[82] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=82  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #82:
+  CurrentEF: 1.28774572349363
+  Optimization variables:
+    C1.C = 1.15758e-12
+    L1.L = 7.95167e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6915
+
+SP Optim1[1].SP1[83] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=83  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #83:
+  CurrentEF: 1.28774572341989
+  Optimization variables:
+    C1.C = 1.15762e-12
+    L1.L = 7.95176e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6921
+
+SP Optim1[1].SP1[84] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=84  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #84:
+  CurrentEF: 1.28774572341374
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[85] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=85  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #85:
+  CurrentEF: 1.28774572341374
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[86] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=86  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #86:
+  CurrentEF: 1.28774572341343
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[87] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=87  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #87:
+  CurrentEF: 1.28774572341343
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[88] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=88  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #88:
+  CurrentEF: 1.28774572341343
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[89] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=89  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #89:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[90] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=90  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #90:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[91] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=91  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #91:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[92] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=92  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #92:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[93] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=93  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #93:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[94] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=94  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #94:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[95] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=95  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #95:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[96] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=96  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #96:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[97] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=97  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #97:
+  CurrentEF: 1.28774572341104
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[98] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=98  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #98:
+  CurrentEF: 1.28774572341098
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[99] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=99  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #99:
+  CurrentEF: 1.28774572341098
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[100] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=100  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #100:
+  CurrentEF: 1.28774572340973
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[101] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=101  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #101:
+  CurrentEF: 1.28774572340973
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[102] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=102  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #102:
+  CurrentEF: 1.28774572340973
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[103] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=103  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #103:
+  CurrentEF: 1.28774572340973
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[104] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=104  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #104:
+  CurrentEF: 1.28774572340973
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[105] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=105  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #105:
+  CurrentEF: 1.2877457234058
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[106] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=106  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #106:
+  CurrentEF: 1.2877457234058
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[107] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=107  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #107:
+  CurrentEF: 1.2877457234058
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[108] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=108  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #108:
+  CurrentEF: 1.2877457234058
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[109] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=109  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #109:
+  CurrentEF: 1.2877457234058
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[110] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=110  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #110:
+  CurrentEF: 1.2877457234058
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[111] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=111  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #111:
+  CurrentEF: 1.2877457234058
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[112] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=112  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #112:
+  CurrentEF: 1.28774572340543
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[113] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=113  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #113:
+  CurrentEF: 1.28774572340543
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[114] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=114  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #114:
+  CurrentEF: 1.28774572340502
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[115] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=115  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #115:
+  CurrentEF: 1.28774572340502
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[116] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=116  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #116:
+  CurrentEF: 1.28774572340502
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[117] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=117  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #117:
+  CurrentEF: 1.28774572340502
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[118] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=118  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #118:
+  CurrentEF: 1.28774572340498
+  Optimization variables:
+    C1.C = 1.15765e-12
+    L1.L = 7.9518e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[119] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=119  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #119:
+  CurrentEF: 1.28774572340498
+  Optimization variables:
+    C1.C = 1.15765e-12
+    L1.L = 7.9518e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[120] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=120  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #120:
+  CurrentEF: 1.28774572340498
+  Optimization variables:
+    C1.C = 1.15765e-12
+    L1.L = 7.9518e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[121] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=121  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #121:
+  CurrentEF: 1.28774572340498
+  Optimization variables:
+    C1.C = 1.15765e-12
+    L1.L = 7.9518e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[122] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=122  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #122:
+  CurrentEF: 1.28774572340498
+  Optimization variables:
+    C1.C = 1.15765e-12
+    L1.L = 7.9518e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[123] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=123  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #123:
+  CurrentEF: 1.28774572340498
+  Optimization variables:
+    C1.C = 1.15765e-12
+    L1.L = 7.9518e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[124] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=124  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #124:
+  CurrentEF: 1.28774572340498
+  Optimization variables:
+    C1.C = 1.15765e-12
+    L1.L = 7.9518e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[125] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=125  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #125:
+  CurrentEF: 1.28774572340498
+  Optimization variables:
+    C1.C = 1.15765e-12
+    L1.L = 7.9518e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6924
+
+SP Optim1[1].SP1[126] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=126  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #126:
+  CurrentEF: 1.28774572340355
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[127] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=127  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #127:
+  CurrentEF: 1.28774572340355
+  Optimization variables:
+    C1.C = 1.15763e-12
+    L1.L = 7.95178e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6922
+
+SP Optim1[1].SP1[128] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=128  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #128:
+  CurrentEF: 1.28774572340316
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[129] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=129  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #129:
+  CurrentEF: 1.28774572340316
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[130] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=130  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #130:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[131] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=131  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #131:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[132] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=132  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #132:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[133] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=133  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #133:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[134] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=134  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #134:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[135] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=135  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #135:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[136] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=136  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #136:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[137] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=137  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #137:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[138] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=138  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #138:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[139] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=139  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #139:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[140] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=140  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #140:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[141] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=141  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #141:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[142] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=142  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #142:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[143] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=143  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #143:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[144] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=144  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #144:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[145] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=145  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #145:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[146] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=146  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #146:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[147] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=147  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #147:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[148] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=148  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #148:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[149] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=149  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #149:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+
+SP Optim1[1].SP1[150] <Analogica_3_lib:Sparam_bfp640:schematic>  optIter=150  freq=(10 MHz->10 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #150:
+  CurrentEF: 1.28774572340232
+  Optimization variables:
+    C1.C = 1.15764e-12
+    L1.L = 7.95179e-09
+    Term1.Z = 23.4278
+    Term2.Z = 59.6923
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =   219.38 seconds.
+
