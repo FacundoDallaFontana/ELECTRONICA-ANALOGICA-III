@@ -1,0 +1,68 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+
+OPTIM Optim1[1] <Analogica_3_lib:prueba_mline:schematic>  optIter=(0->25)
+
+SP Optim1[1].SP1[0] <Analogica_3_lib:prueba_mline:schematic>  optIter=0  freq=(1 GHz->10 GHz)
+...........................................................................................
+Iteration/Trial #0:
+  CurrentEF: 0.0557038576582234
+  Optimization variables:
+    Term1.Z = 80
+    Term2.Z = 80
+
+SP Optim1[1].SP1[4] <Analogica_3_lib:prueba_mline:schematic>  optIter=4  freq=(1 GHz->10 GHz)
+...........................................................................................
+Iteration/Trial #4:
+  CurrentEF: 0.0512289722288411
+  Optimization variables:
+    Term1.Z = 81.1392
+    Term2.Z = 80.1789
+
+SP Optim1[1].SP1[8] <Analogica_3_lib:prueba_mline:schematic>  optIter=8  freq=(1 GHz->10 GHz)
+...........................................................................................
+Iteration/Trial #8:
+  CurrentEF: 0.0500848828678473
+  Optimization variables:
+    Term1.Z = 81.7291
+    Term2.Z = 80.788
+
+SP Optim1[1].SP1[13] <Analogica_3_lib:prueba_mline:schematic>  optIter=13  freq=(1 GHz->10 GHz)
+...........................................................................................
+Iteration/Trial #13:
+  CurrentEF: 0.0469875091391561
+  Optimization variables:
+    Term1.Z = 80.4435
+    Term2.Z = 80.9636
+
+SP Optim1[1].SP1[16] <Analogica_3_lib:prueba_mline:schematic>  optIter=16  freq=(1 GHz->10 GHz)
+...........................................................................................
+Iteration/Trial #16:
+  CurrentEF: 0.0458009573441175
+  Optimization variables:
+    Term1.Z = 80.661
+    Term2.Z = 80.7188
+
+SP Optim1[1].SP1[18] <Analogica_3_lib:prueba_mline:schematic>  optIter=18  freq=(1 GHz->10 GHz)
+...........................................................................................
+Iteration/Trial #18:
+  CurrentEF: 0.0453117881581477
+  Optimization variables:
+    Term1.Z = 81.6117
+    Term2.Z = 81.3266
+
+SP Optim1[1].SP1[24] <Analogica_3_lib:prueba_mline:schematic>  optIter=24  freq=(1 GHz->10 GHz)
+...........................................................................................
+Iteration/Trial #24:
+  CurrentEF: 0.0452672655372784
+  Optimization variables:
+    Term1.Z = 81.5507
+    Term2.Z = 81.4536
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =    13.03 seconds.
+

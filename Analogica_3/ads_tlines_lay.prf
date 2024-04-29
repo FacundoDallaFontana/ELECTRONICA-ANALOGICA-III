@@ -6,7 +6,7 @@ instIDLayerID silk_screen:drawing
 instParam1LayerID resi:drawing
 instTextHeight 10.000000
 gridSnapX 5.000000
-gridSnapY 2.000000
+gridSnapY 5.000000
 tapLength 25.000000
 portSize 40.000000
 minVertexDistance 0.000000

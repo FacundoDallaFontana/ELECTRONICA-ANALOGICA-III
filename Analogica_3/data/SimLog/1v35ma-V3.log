@@ -1,0 +1,22 @@
+
+hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
+    (64-bit windows built: 01/21/16 15:34:19)
+Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
+
+
+SP SP1[1] <Analogica_3_lib:1v35ma-V3:schematic>   freq=(100 MHz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008150) < MinRecommendValue(0.000166) OR UserValue > MaxRecommendValue(0.004980) for 'W' in `Gap3'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008150) < MinRecommendValue(0.000166) OR UserValue > MaxRecommendValue(0.004980) for 'W' in `Gap4'
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Noise data in the Touchstone file `C:/users/welcome/downloads/infineon_rf/circuit/data/BFP640_w_noise_VCE_1.0V_IC_35mA.s2p'
+    does not cover the current value of `freq'. Therefore, if noise
+    simulation is requested the data will be obtained by extrapolation.
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Resource usage:
+  Total stopwatch time     =     0.98 seconds.
+
