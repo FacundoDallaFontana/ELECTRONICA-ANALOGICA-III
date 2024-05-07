@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "EA3_V3_kicad")(type KiCad)(uri "$(KIPRJMOD)/EA3_V3_kicad.pretty")(options "")(descr ""))
+)

@@ -4,111 +4,19 @@ hpeesofsim (*) 450.shp Jan 21 2016, MINT version 4
 Copyright 1995 - 2015 Keysight Technologies, 1989-2016.
 
 
-OPTIM Optim1[1] <Analogica_3_lib:1v35ma-V4:schematic>  optIter=(0->150)
-Warning detected by hpeesofsim during SP analysis `_4_._6_'.
+SP SP1[1] <Analogica_3_lib:1v35ma-V4:schematic>   freq=(100 MHz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008150) < MinRecommendValue(0.000166) OR UserValue > MaxRecommendValue(0.004980) for 'W' in `Gap4'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008150) < MinRecommendValue(0.000166) OR UserValue > MaxRecommendValue(0.004980) for 'W' in `Gap3'
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
     Noise data in the Touchstone file `C:/users/welcome/downloads/infineon_rf/circuit/data/BFP640_w_noise_VCE_1.0V_IC_35mA.s2p'
     does not cover the current value of `freq'. Therefore, if noise
     simulation is requested the data will be obtained by extrapolation.
-
-SP Optim1[1].SP1[0] <Analogica_3_lib:1v35ma-V4:schematic>  optIter=0  freq=(100 MHz->10 GHz)
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Iteration/Trial #0:
-  CurrentEF: 0.00796415299588613
-  Optimization variables:
-    C_in.L = 11.6072e-03
-    C_out.L = 10.3137e-03
-    L_25 = 19.9019e-03
-    L_80 = 22.8176e-03
-    QWT_in.W = 7.65501e-03
-    QWT_out_1.W = 4.40402e-03
-    QWT_out_2.W = 6.31204e-03
-    W_50 = 3.34982e-03
-
-SP Optim1[1].SP1[1] <Analogica_3_lib:1v35ma-V4:schematic>  optIter=1  freq=(100 MHz->10 GHz)
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Iteration/Trial #1:
-  CurrentEF: 0.00286313029675706
-  Optimization variables:
-    C_in.L = 11.6072e-03
-    C_out.L = 10.3137e-03
-    L_25 = 19.9019e-03
-    L_80 = 22.8177e-03
-    QWT_in.W = 7.65501e-03
-    QWT_out_1.W = 4.40402e-03
-    QWT_out_2.W = 6.31204e-03
-    W_50 = 3.34982e-03
-
-SP Optim1[1].SP1[2] <Analogica_3_lib:1v35ma-V4:schematic>  optIter=2  freq=(100 MHz->10 GHz)
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Iteration/Trial #2:
-  CurrentEF: 0.000210702904460487
-  Optimization variables:
-    C_in.L = 11.6072e-03
-    C_out.L = 10.3137e-03
-    L_25 = 19.9019e-03
-    L_80 = 22.8176e-03
-    QWT_in.W = 7.65501e-03
-    QWT_out_1.W = 4.40402e-03
-    QWT_out_2.W = 6.31204e-03
-    W_50 = 3.34982e-03
-
-SP Optim1[1].SP1[3] <Analogica_3_lib:1v35ma-V4:schematic>  optIter=3  freq=(100 MHz->10 GHz)
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Iteration/Trial #3:
-  CurrentEF: 4.32284177646658e-05
-  Optimization variables:
-    C_in.L = 11.6072e-03
-    C_out.L = 10.3137e-03
-    L_25 = 19.9019e-03
-    L_80 = 22.8176e-03
-    QWT_in.W = 7.65501e-03
-    QWT_out_1.W = 4.40401e-03
-    QWT_out_2.W = 6.31205e-03
-    W_50 = 3.34982e-03
-
-SP Optim1[1].SP1[4] <Analogica_3_lib:1v35ma-V4:schematic>  optIter=4  freq=(100 MHz->10 GHz)
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Iteration/Trial #4:
-  CurrentEF: 3.79164465508028e-06
-  Optimization variables:
-    C_in.L = 11.6072e-03
-    C_out.L = 10.3137e-03
-    L_25 = 19.9019e-03
-    L_80 = 22.8176e-03
-    QWT_in.W = 7.65502e-03
-    QWT_out_1.W = 4.40402e-03
-    QWT_out_2.W = 6.31204e-03
-    W_50 = 3.34982e-03
-
-SP Optim1[1].SP1[5] <Analogica_3_lib:1v35ma-V4:schematic>  optIter=5  freq=(100 MHz->10 GHz)
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Iteration/Trial #5:
-  CurrentEF: 3.79164465508028e-06
-  Optimization variables:
-    C_in.L = 11.6072e-03
-    C_out.L = 10.3137e-03
-    L_25 = 19.9019e-03
-    L_80 = 22.8176e-03
-    QWT_in.W = 7.65502e-03
-    QWT_out_1.W = 4.40402e-03
-    QWT_out_2.W = 6.31204e-03
-    W_50 = 3.34982e-03
-
-SP Optim1[1].SP1[6] <Analogica_3_lib:1v35ma-V4:schematic>  optIter=6  freq=(100 MHz->10 GHz)
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Iteration/Trial #6:
-  CurrentEF: 0
-  Optimization variables:
-    C_in.L = 11.6072e-03
-    C_out.L = 10.3137e-03
-    L_25 = 19.9019e-03
-    L_80 = 22.8176e-03
-    QWT_in.W = 7.65502e-03
-    QWT_out_1.W = 4.40402e-03
-    QWT_out_2.W = 6.31204e-03
-    W_50 = 3.34982e-03
-Optim1[1] reached the goals. 
 
 Resource usage:
-  Total stopwatch time     =    57.41 seconds.
+  Total stopwatch time     =     0.31 seconds.
 

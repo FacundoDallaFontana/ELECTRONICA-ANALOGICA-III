@@ -1,5 +1,5 @@
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="Analogica_3_lib:1v35ma-V4:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Analogica_3_lib:1v35ma-V4:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
@@ -23,7 +23,7 @@ model MSub1 MSUB H=1.66 mm Er=4.3 Mur=1 Cond=1.0E+50 Hu=3.9e+034 mil T=400 um Ta
 BFP640_cktName:SNP1 N__12 N__8 0 File="BFP640_w_noise_VCE_1.0V_IC_35mA.s2p" Temp=25 InterpMode="linear" InterpDom="" ExtrapMode="constant" CheckPassivity=0 
 MLIN2:QWT_out_2  N__14 N__22 Subst="MSub1" W=6.31204 mm opt{ 2 mm to 9 mm } L=24.0165 mm noopt{ 10.2 mm to 30.7 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
 MLIN2:TL_in  N__5 N__6 Subst="MSub1" W=W_50 L=20 mm noopt{ 10 mm to 30 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MLIN2:QWT_in  N__6 N__8 Subst="MSub1" W=7.65501 mm opt{ 3.95 mm to 11.9 mm } L=21.3918 mm noopt{ 10 mm to 30 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:QWT_in  N__6 N__8 Subst="MSub1" W=7.65502 mm opt{ 3.95 mm to 11.9 mm } L=21.3918 mm noopt{ 10 mm to 30 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
 MLIN2:QWT_out_1  N__12 N__14 Subst="MSub1" W=4.40402 mm opt{ 2 mm to 9 mm } L=20.0499 mm noopt{ 10.4 mm to 31.3 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
 MLIN2:TL_out  N__22 N__21 Subst="MSub1" W=W_50 L=20 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
 MLIN2:C_in  N__9 N__23 Subst="MSub1" W=W_50 L=11.6072 mm opt{ 6.72 mm to 20.2 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
