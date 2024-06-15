@@ -92,6 +92,33 @@
       (stroke (width 0.01) (type solid)) (fill solid) (layer "B.Mask") (tstamp bea40100-4d74-4154-b8ce-1771bc681af5))
   )
 
+  (footprint "BFP640:SOT343" (layer "F.Cu")
+    (tstamp 469801bc-6722-4a13-9e3c-9907d23be25f)
+    (at 138.5 89.9)
+    (attr smd)
+    (fp_text reference "REF**" (at 1.691281 0.060045 180) (layer "F.SilkS") hide
+        (effects (font (size 0.315198 0.315198) (thickness 0.0788)))
+      (tstamp 140c11a2-2414-48b6-aab6-fc0a1ecf2db7)
+    )
+    (fp_text value "SOT343" (at 0.145133 -0.005005) (layer "F.Fab") hide
+        (effects (font (size 0.315245 0.315245) (thickness 0.078811)))
+      (tstamp f673407f-0f71-4029-b750-85ceef2528d4)
+    )
+    (pad "1" smd rect (at -0.65 0.8) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (solder_mask_margin 0.102) (tstamp 82a24909-df56-4127-81f2-89e847e41939))
+    (pad "2" smd rect (at 0.5 0.8) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (solder_mask_margin 0.102) (tstamp ad2a9d2e-fa4b-4c04-a243-224e6eda2cbf))
+    (pad "3" smd rect (at 0.65 -0.8) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (solder_mask_margin 0.102) (tstamp 9c142d60-4f9f-4e70-8770-37cf5974819a))
+    (pad "4" smd rect (at -0.65 -0.8) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (solder_mask_margin 0.102) (tstamp 7b200f68-f839-4303-86b0-8980b9df91f0))
+    (model "D:/Downloads/BFP640/BFP640.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
   (footprint "LOGO" (layer "F.Cu")
     (tstamp 495141b6-4cf4-46ce-bcc5-3ff8e5eb5b6e)
     (at 153.32 89.87)

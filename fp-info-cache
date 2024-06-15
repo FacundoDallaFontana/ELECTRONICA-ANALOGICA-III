@@ -1,4 +1,4 @@
-22214007202181732
+22231021693408765
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BFP640
+SOT343
+
+
+0
+4
+4
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -54683,6 +54690,69 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+Downloads
+DISPLAY_SA56-11SRWA
+
+
+0
+10
+10
+Downloads
+LEDC3216X120N
+
+
+0
+2
+2
+Downloads
+SOT103P240X110-3N
+
+
+0
+3
+3
+Downloads
+SOT343
+
+
+0
+4
+4
+Downloads
+WL-SMRW-1206-CYLDR
+WL-SMRW SMD mono-color reverse mount waterclear ,Size: 1206
+
+0
+2
+2
+Downloads
+WL-SMRW-1206-CYLDR-REVERSE-MOUNT
+WL-SMRW SMD mono-color reverse mount waterclear, Size: 1206
+
+0
+2
+2
+Downloads
+WL-SMRW-1206-RECT
+WL-SMRW SMD mono-color reverse mount waterclear, Size: 1206
+
+0
+2
+2
+Downloads
+WL-SMRW-1206-RECT-REVERSE-MOUNT
+WL-SMRW SMD mono-color reverse mount waterclear, Size: 1206
+
+0
+2
+2
+Downloads
+WL-SMRW_1206_DOMLENS
+
+
+0
+2
+2
 EA3_V3_kicad
 B.Cu_g11
 
