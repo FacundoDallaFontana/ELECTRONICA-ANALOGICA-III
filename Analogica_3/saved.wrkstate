@@ -1,5 +1,8 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic lib="Analogica_3_lib" view="schematic" height="1007" width="1920" cell="1v35ma-V4" x1="-9" y1="-9"/>
+        <DDS name="1v35ma-V4.dds"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

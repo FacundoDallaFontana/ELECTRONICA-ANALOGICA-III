@@ -19,7 +19,7 @@ MLOC2:Mloc2  N__13 Subst="MSub1" W=W_50 L=0 mm Wall1=1.0E+30 mil Wall2=1.0E+30 m
 MLOC2:Mloc3  N__2 Subst="MSub1" W=W_25 L=0 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
 MLOC2:Mloc4  N__20 Subst="MSub1" W=W_25 L=0 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
 model MSub1 MSUB H=1.66 mm Er=4.3 Mur=1 Cond=1.0E+50 Hu=3.9e+034 mil T=400 um TanD=0.005 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-#include "C:/Users/welcome/Downloads/Infineon_RF//circuit/models/BFP640_cktName.net" 
+#include "G:/Mi unidad/UNC/Material de Estudio/Electrónica Analogica III/TP2/Infineon_RF//circuit/models/BFP640_cktName.net" 
 BFP640_cktName:SNP1 N__12 N__8 0 File="BFP640_w_noise_VCE_1.0V_IC_35mA.s2p" Temp=25 InterpMode="linear" InterpDom="" ExtrapMode="constant" CheckPassivity=0 
 MLIN2:QWT_out_2  N__14 N__22 Subst="MSub1" W=6.31204 mm opt{ 2 mm to 9 mm } L=24.0165 mm noopt{ 10.2 mm to 30.7 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
 MLIN2:TL_in  N__5 N__6 Subst="MSub1" W=W_50 L=20 mm noopt{ 10 mm to 30 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 

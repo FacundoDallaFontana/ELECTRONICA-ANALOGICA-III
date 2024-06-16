@@ -170,7 +170,7 @@ def calcular_Z0_microstrip_out(impedancias, Zo):
     return Z0_microstrip_out
 
 def calcular_microstrip(e_r, H, Z0_microstrip_in):
-    t = 0.05  # grosor de la placa en mm
+    t = 0.4  # grosor de la placa en mm
 
     W_list = []
     We_list = []

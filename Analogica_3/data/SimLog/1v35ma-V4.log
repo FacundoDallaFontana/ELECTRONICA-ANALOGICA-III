@@ -12,11 +12,11 @@ Warning detected by hpeesofsim during SP analysis 'SP1'.
     UserValue(0.008150) < MinRecommendValue(0.000166) OR UserValue > MaxRecommendValue(0.004980) for 'W' in `Gap3'
 
 Warning detected by hpeesofsim during SP analysis `SP1'.
-    Noise data in the Touchstone file `C:/users/welcome/downloads/infineon_rf/circuit/data/BFP640_w_noise_VCE_1.0V_IC_35mA.s2p'
+    Noise data in the Touchstone file `G:/mi unidad/unc/material de estudio/electrónica analogica iii/tp2/infineon_rf/circuit/data/BFP640_w_noise_VCE_1.0V_IC_35mA.s2p'
     does not cover the current value of `freq'. Therefore, if noise
     simulation is requested the data will be obtained by extrapolation.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 Resource usage:
-  Total stopwatch time     =     0.31 seconds.
+  Total stopwatch time     =     4.70 seconds.
 
